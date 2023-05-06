@@ -1,3 +1,3 @@
 ## Reading Engineering books 
 
-I believe in the advice that uncle bob gives in the book (clean coder) that engineer should spend a extra 3 hours a day to push their knowledge. I spend a lot of time reading engineering books, and I believe that summarizing what I've learned while reading can solidify my understanding. For this reason, I have created a public Github repository where anyone can see my personal opinions about the engineering books and lesson learnt. 
+I believe in the advice that Uncle Bob gives in his book, Clean Coder, that engineers should spend an extra three hours a day to push their knowledge. I spend a lot of time reading engineering books, and I think that summarizing what I've learned while reading can solidify my understanding. For this reason, I have created a public Github repository where anyone can see my personal opinions about engineering books and the lessons I've learned.
