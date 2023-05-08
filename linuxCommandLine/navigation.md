@@ -25,4 +25,24 @@ linux operating system has no concept of file extension. it is based on what you
 
 hidden files start with . and needs ls -a to show up in the command line
 
+## Exploring the system
 
+### Commands
+
+- `file`: gives us the file type of the filename given.
+- `less`: it gives a page by page reader for text files in ascii format. less is the successor to the more command as it allows for the user to go back and forth on pages.
+
+### Folders and their uses
+
+- `/`: the root directory where all files are encompassed.
+- `/user`: it contains all the programs and support files used by regular users.
+- `/etc`: contains all the system-wide configuration like `/etc/crontable` that defines when automated jobs are run.
+
+There are plenty more folders that could be explained, but these were a few of the cool ones.
+
+### Concepts
+
+Symbolic links are defined by `->` when showing the `ls` command. Think of symbolic links as a way of doing linked lists in the folder structure. This can be useful if you want a parent file to change a child file at the same time. The real-world use could be publishing software. Let's say you have a `lib.exe` and want to publish a new `lib.exe` because it has new code. We can make a `lib_1.exe` which has all the new code and point a symbolic link from `lib.exe` to `lib_1.exe`.
+
+Hard Links is the alternative
+  
